@@ -3,21 +3,22 @@
 //  OTP
 //
 //  Created by Dmitry Kononchuk on 24.03.2024.
+//  Copyright © 2024 Dmitry Kononchuk. All rights reserved.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    // MARK: - Body
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        OTPView(text: nil, error: nil) { code in
+            print("Code: \(code)")
         }
-        .padding()
     }
 }
+
+// MARK: - Preview
 
 #Preview {
     ContentView()

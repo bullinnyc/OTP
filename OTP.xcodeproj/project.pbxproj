@@ -11,6 +11,10 @@
 		DB1444022BB05B0400647479 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1444012BB05B0400647479 /* ContentView.swift */; };
 		DB1444042BB05B0600647479 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1444032BB05B0600647479 /* Assets.xcassets */; };
 		DB1444082BB05B0600647479 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1444072BB05B0600647479 /* Preview Assets.xcassets */; };
+		DB14440F2BB05B3800647479 /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14440E2BB05B3800647479 /* OTPView.swift */; };
+		DB1444112BB05BB300647479 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DB1444102BB05BB300647479 /* .gitignore */; };
+		DB1444132BB05BC200647479 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DB1444122BB05BC200647479 /* README.md */; };
+		DB8552C42BB83D7200560C60 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = DB8552C32BB83D7200560C60 /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		DB1444032BB05B0600647479 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB1444052BB05B0600647479 /* OTP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OTP.entitlements; sourceTree = "<group>"; };
 		DB1444072BB05B0600647479 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB14440E2BB05B3800647479 /* OTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
+		DB1444102BB05BB300647479 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DB1444122BB05BC200647479 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DB8552C32BB83D7200560C60 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,9 @@
 		DB1443F32BB05B0400647479 = {
 			isa = PBXGroup;
 			children = (
+				DB8552C32BB83D7200560C60 /* demo.gif */,
+				DB1444122BB05BC200647479 /* README.md */,
+				DB1444102BB05BB300647479 /* .gitignore */,
 				DB1443FE2BB05B0400647479 /* OTP */,
 				DB1443FD2BB05B0400647479 /* Products */,
 			);
@@ -53,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				DB1443FF2BB05B0400647479 /* OTPApp.swift */,
-				DB1444012BB05B0400647479 /* ContentView.swift */,
+				DB1444142BB05C2E00647479 /* Views */,
 				DB1444032BB05B0600647479 /* Assets.xcassets */,
 				DB1444052BB05B0600647479 /* OTP.entitlements */,
 				DB1444062BB05B0600647479 /* Preview Content */,
@@ -67,6 +78,15 @@
 				DB1444072BB05B0600647479 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB1444142BB05C2E00647479 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB1444012BB05B0400647479 /* ContentView.swift */,
+				DB14440E2BB05B3800647479 /* OTPView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB1444082BB05B0600647479 /* Preview Assets.xcassets in Resources */,
+				DB1444112BB05BB300647479 /* .gitignore in Resources */,
+				DB8552C42BB83D7200560C60 /* demo.gif in Resources */,
+				DB1444132BB05BC200647479 /* README.md in Resources */,
 				DB1444042BB05B0600647479 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +164,7 @@
 			files = (
 				DB1444022BB05B0400647479 /* ContentView.swift in Sources */,
 				DB1444002BB05B0400647479 /* OTPApp.swift in Sources */,
+				DB14440F2BB05B3800647479 /* OTPView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
